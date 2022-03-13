@@ -34,6 +34,7 @@ object Lab26_hive_write {
     
     df.write.format("orc").mode("overwrite").saveAsTable("default.tbltrans_orc")
     println("Data written into hive")
+    println("we are in git")
     
   }
   
